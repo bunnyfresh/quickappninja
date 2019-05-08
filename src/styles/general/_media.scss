@@ -1,0 +1,431 @@
+@media screen and (max-width: 1199px) {
+    .section9 .col-lg-2{
+        height: 420px;
+    }
+
+    ul.profit-steps li:not(.line-through){
+        margin: 0 1px;
+    }
+}
+@media screen and (max-width: 1100px) {
+    // .game-screen-wrapper { 
+    //     width: 250px;
+    //     height: 425px;
+    //     top: 110px;
+    //     right: 16px;
+    // }
+
+    
+
+    ul.profit-steps li:not(.line-through) {
+        margin: 0 -5px;
+    }
+    ul.profit-steps li.line-through {
+        width: 80%;
+    }
+    .section7 .screen-2 {
+        top: -70px;
+    }
+
+    .badge-new{
+        left: 10px;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .section7 h3 br{
+        display: none;
+    }
+
+    .socitem{
+        margin-bottom: 50px;
+    }
+
+    .device-description .col-md-4{
+        &:first-child .white-wrap::before{
+            display: none;
+        }
+        .white-wrap{
+            &::before{
+                content: '';
+                width: 150vw;
+                height: 1px;
+                position: absolute;
+                left: -50%;
+                top: 0;
+                background-color: #d9dddf;
+            }
+        }
+    }
+
+    .section7 h3 {
+        font-family: 'Nunito',sans-serif;
+        font-size: 36px;
+        font-weight: 300;
+        color: #6b7988;
+        margin-top: 50px;
+        line-height: inherit !important;
+    }
+
+    .section9 .col-lg-2 {
+        height: 500px;
+    }
+
+    .device-description {
+
+        // margin-top: 100px;
+
+        .col-md-4:first-child .white-wrap {
+            margin-top: 0px;
+        }
+
+        .white-wrap{
+            margin-top: 400px;
+        }
+    }
+
+    .phone-wrap {
+        margin-top: 100px; 
+    }
+
+    section p br{
+        display: none;
+    }
+
+    .section7 .logo-of-main-game {
+        margin-bottom: 40px;
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 0px;
+        display: block;
+        margin-bottom: 40px;
+    }
+
+    ul.profit-steps li:not(.line-through) {
+        margin: 20px 0px 50px 0 !important;
+        width: 50%;
+    }
+
+    .section7 .screen-1 { 
+        height: 280px;
+        background-size: contain;
+    }
+    .section7 .screen-2 { 
+        height: 280px;
+        background-size: contain;
+    }
+
+    
+    
+    .section7:before{
+        display: none;
+    }
+
+
+    .section9 img {
+        margin-top: 40px;
+        height: 360px;
+        object-fit: contain;
+    }
+
+    .phone{
+        margin-top: 50px;
+    }
+
+    .phone-wrap {
+        margin-top: 50px;
+    }
+
+    header nav li.btn-1{
+        color: #47c9af;
+        text-align: right !important;
+        border: 1px solid #47c9af;
+        border-radius: 5px;
+        padding: 0;  
+        transition: all .3s ease;
+    }
+    // .game-screen-wrapper {
+    //     width: 47%;
+    //     height: 77%;
+    //     top: 64px;
+    //     right: 27%;
+    // }
+
+     
+
+    .new-game-label {
+        top: -10px;
+        left: -80px;
+        font-size: 30px;
+    }
+
+    ul.profit-steps li.line-through {
+        display: none;
+    }
+
+    ul.profit-steps li:not(.line-through) {
+        margin: 20px 45px;
+    }
+    .section7:before {
+        left: 145px; 
+    }
+    .section7 .screen-2 {
+        top: 0px;
+        left: 0px;
+    }
+    .zone-device .item {
+        width: 100%;
+        height: 400px; 
+    }
+
+
+    section br{
+        display: none;
+    }
+    
+}
+
+
+@media screen and (max-width: 900px){
+    
+    .section9 img {
+        margin-top: 40px;
+        height: 360px;
+        object-fit: contain;
+    }
+
+    .phone{
+        margin-top: 50px;
+    }
+
+    .phone-wrap {
+        margin-top: 50px;
+    }
+
+    header nav li.btn-1{
+        color: #47c9af;
+        text-align: right !important;
+        border: 1px solid #47c9af;
+        border-radius: 5px;
+        padding: 0;  
+        transition: all .3s ease;
+    }
+    // .game-screen-wrapper {
+    //     width: 47%;
+    //     height: 77%;
+    //     top: 64px;
+    //     right: 27%;
+    // }
+
+     
+
+    // .new-game-label {
+    //     top: 80px;
+    //     left: -40px;
+    //     font-size: 30px;
+    // }
+    ul.profit-steps li.line-through {
+        display: none;
+    }
+
+    ul.profit-steps li:not(.line-through) {
+        margin: 20px 45px;
+    }
+    .section7:before {
+        left: 145px; 
+    }
+    .section7 .screen-2 {
+        top: -15px;
+        left: 0px;
+    }
+    .zone-device .item {
+        width: 100%;
+        height: 400px; 
+    }
+}
+
+@media screen and (max-width: 800px){
+
+    .cookie-got-btn{
+        margin-top: 13px;
+    }
+    
+}
+@media screen and (max-width: 780px){
+    .new-game-label {
+        top: -10px;
+        left: -40px;
+        font-size: 30px;
+    }
+    // .game-screen-wrapper {
+    //     width: 64%;
+    //     height: 77%;
+    //     top: 64px;
+    //     right: 18%;
+    // }
+
+    .section1 p br{
+        display: none;
+    }
+
+    .section14 h4 br{
+        display: none;
+    }
+
+    .section7 .logo-of-main-game {
+        margin-bottom: 40px;
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 0px;
+        display: block;
+        margin-bottom: 40px;
+    }
+
+    .section7 .screen-1 { 
+        height: 280px;
+        background-size: contain;
+    }
+    .section7 .screen-2 { 
+        height: 280px;
+        background-size: contain;
+    }
+    
+    .section7:before{
+        display: none;
+    }
+
+    .section7 h3 {
+        font-family: 'Nunito',sans-serif;
+        font-size: 36px;
+        font-weight: 300;
+        color: #6b7988;
+        margin-top: 50px;
+        line-height: inherit !important;
+    }
+
+    .zone-device .item {
+        width: 100%;
+        height: inherit;
+        margin-bottom: 75px;
+    }
+
+    header .logo .ninja {
+        width: 50px;
+        margin-right: 5px;
+        display: none;
+    }
+
+    ul.profit-steps li:not(.line-through) {
+        margin: 20px 0;
+        width: 100%;
+    }
+
+    .section9 img {
+        margin-top: 40px;
+        height: 360px;
+        object-fit: contain;
+    }
+
+    .section10 .socitem{
+        margin-bottom: 50px;
+    }
+
+    .section13 img{
+        height: 300px;
+    }
+
+    
+    header .navbar-toggler{
+        margin: 0;
+    }
+
+    .device-description .white-wrap {
+        margin-top: 420px;
+    }
+}
+
+@media screen and (max-width: 650px){
+    // .game-screen-wrapper {
+    //     width: 64%;
+    //     height: 77%;
+    //     top: 64px;
+    //     right: 18%;
+    // }
+
+    footer ul.social-networks li {
+        float: left;
+        margin-left: 7px;
+    }
+
+}
+
+@media screen and (max-width: 550px){
+    // .game-screen-wrapper {
+    //     width: 60%;
+    //     height: 77%;
+    //     top: 64px;
+    //     right: 20%;
+    // }
+
+    header .textLogo {
+        height: 30px;
+        width: 80px;
+    }
+    header .ninja {
+        height: 30px;
+    }
+}
+
+@media screen and (max-width: 480px){
+ 
+    .section5 .item{
+        float: none;
+    }
+
+    .section5 .col-12{
+        text-align: center;
+    } 
+}
+
+@media screen and (max-width: 450px){
+    // .game-screen-wrapper {
+    //     width: 74%;
+    //     height: 77%;
+    //     top: 64px;
+    //     right: 13%;
+    // }
+}
+
+@media screen and (max-width: 400px){
+    // .game-screen-wrapper {
+    //     width: 310px;
+    //     height: 77%;
+    //     top: 64px;
+    //     right: 8%;
+    // }
+}
+
+@media screen and (max-width: 350px){
+    // .game-screen-wrapper {
+    //     width: 88%;
+    //     height: 71%;
+    //     top: 85px;
+    //     right: 6%;
+    // }
+
+
+    // .new-game-label {
+    //     top: 40px;
+    //     left: 14px;
+    //     font-size: 30px;
+    // }
+}
+
+@media screen and (max-width: 300px){
+    // .game-screen-wrapper {
+    //     width: 88%;
+    //     height: 61%;
+    //     top: 115px;
+    //     right: 6%;
+    // }
+}
